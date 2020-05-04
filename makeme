@@ -1,0 +1,1 @@
+gcc $1.c $HOME/Downloads/glad/src/glad.c -o $1 -I$HOME/Downloads/glfw-3.3.2/include -I$HOME/Downloads/glad/include -L$HOME/Downloads/glfw-3.3.2/src -Wl,-rpath=$HOME/Downloads/glfw-3.3.2/src -lglfw -lX11 -lpthread -lXrandr -lXi -ldl
